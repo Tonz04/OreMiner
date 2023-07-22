@@ -1,7 +1,7 @@
 <template>
     <div class="flex-grow">
         <div class="flex flex-col place-content-end h-full">
-            <div class="flex gap-x-2 place-content-center">
+            <div class="flex gap-x-2 place-content-center pb-2">
                 <div v-for="ore of gameState.ores">
                     <div class="border border-white rounded-lg w-20 h-12 flex gap-x-2 justify-center items-center">
                         <img :src="'images/' + OreType[ore.oreType] + '.png'" class="h-5 w-5" />
